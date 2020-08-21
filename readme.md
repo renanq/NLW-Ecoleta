@@ -28,6 +28,7 @@ Para executar o projeto, será necessário instalar os seguintes programas:
 - [Expo Client: para executar o aplicativo mobile no seu celular](https://expo.io/)
 - instalar as dependências necessárias da parte WEB, listadas no arquivo [package.json](/web/package.json)
 - instalar as dependencias necessárias do backend, listadas no arquivo [package.json](/server/package.json)
+- instalar as dependências necessárias da parte mobile, listadas no arquivo [package.json](/mobile/package.json)
 
 Após estar com ambiente pronto, deve-se criar o banco de dados:
 
@@ -42,3 +43,4 @@ Para utilizar, basta iniciar cada parte do projeto:
 - Backend: acessar a pasta "server" e executando o comando "npm run dev"
 - WEB: acessar a pasta "web" e executar "npm start"
 - Mobile: acessar a pasta "mobile" e executar o comando "npm start"
+- Abrir o Expo client no seu celular e conectar com o servidor da aplicação
